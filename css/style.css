@@ -40,14 +40,14 @@
     width: 609px;
 }
 /*============================================*/
-.navbar{
-    padding: 0;
-    position: absolute;
-    left: 0;
-    top: 65px;
-    z-index: 2;
-    width: 100%;
-    z-index: 999;
+.navbar {
+	padding: 0;
+	position: absolute;
+	left: 0;
+	top: 65px;
+	z-index: 2;
+	width: 100%;
+	z-index: 9999;
 }
 .navbar .container .navbar-nav .nav-item .nav-link{
     color: #ffffff;
