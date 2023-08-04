@@ -1,0 +1,53 @@
+.navbar-toggler-icon{
+    border: 4px solid #4756DF;
+    color: #000;
+    font-size: 0;
+    padding: 16px;
+    border-radius: 8px;
+}
+.show{
+    opacity: 0;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .navbar{
+        top: 0 ;
+        background-color: burlywood;
+    }
+    .navbar img{
+        width: 100px;
+    }
+    
+    .overlay{
+        top: 55px;
+    }
+    #banner-part {
+        top: 40px;
+        height: 439px;
+    }
+    #banner-part .overlay .container h1 {
+        width: auto;
+        font-size: 20px;
+    }
+    #banner-part .overlay .container p {
+        width: auto;
+        font-size: 9px;
+        margin: 30px auto;
+        line-height: 10px;
+    }
+    .slide1,.slide2,.slide3,.slide4{
+            height: 439px;
+    }
+    .btn{
+        font-size: 12px;
+        padding: 6px 21px;
+    }
+    #banner-part ul{
+        bottom: 600px;
+        z-index: 999999999;
+    }
+    #banner-part ul li button{
+        padding: 9px;
+    }
+    
+ }
