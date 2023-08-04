@@ -7,6 +7,14 @@
 }
 .show{
     opacity: 0;
+    opacity: 1;
+    padding: 4px 0 20px;
+    background: #3908088a;
+    border-radius: 10px;
+
+}
+.navbar {
+	padding-bottom: 15px;
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) { 
