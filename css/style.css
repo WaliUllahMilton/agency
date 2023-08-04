@@ -95,10 +95,7 @@
     border-radius: 50%;
     font-size: 0;
 }
-#banner-part ul .slick-active {
-    border: 8px solid #ffffff;
-    border-radius: 50%;
-}
+
 #banner-part .slider {
 	height: 755px;
 	overflow: hidden;

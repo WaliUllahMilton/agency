@@ -35,6 +35,12 @@
         margin: 30px auto;
         line-height: 10px;
     }
+    .slick-active {
+        border: 0;
+    }
+    .slick-dots {
+        top: 378px;
+    }
     .slide1,.slide2,.slide3,.slide4{
             height: 439px;
     }
@@ -49,5 +55,196 @@
     #banner-part ul li button{
         padding: 9px;
     }
-    
+    /*=============================*/
+    #success-part .container {
+        margin-top: 102px;
+    }
+    #success-part .row {
+        flex-direction: row;
+        row-gap: 13px;
+        text-align: center;
+    }
+    #success-part .container .row .col-lg-4 h3 {
+        font-size: 12px;
+    }
+    #success-part .container .row .col-lg-8 .row .col-lg-4 h2 {
+        font-size: 22px;
+    }
+    #success-part .container .row .col-lg-8 .row .col-lg-4 p {
+        font-size: 11px;
+        line-height: 108%;
+    }
+    /*==========================*/
+    #services-part {
+        padding: 68px 0;
+    }
+    .title h2 {
+        font-size: 30px;
+    }
+    .description p {
+        font-size: 11px;
+        line-height: 20px;
+        width: auto;
+    }
+    #services-part .container .row .col-lg-4 .main {
+        padding: 0px 18px 3px;
+        width: auto;
+        transition: all linear .4s;
+    }
+    #services-part .container .row .col-lg-4 .main .text p {
+        font-size: 11px;
+        line-height: 20px;
+        width: auto;
+    }
+    #services-part .container .row .col-lg-4 .main .text h2 {
+        margin: 15px 0 5px;
+    }
+    #services-part .container .row .col-lg-4 .main:hover {
+        border-radius: 0;
+        box-shadow: none;
+    }
+    /*=================================*/
+    #work-part {
+        background-color: #F3F3F3;
+        padding: 50px 0;
+    }
+    #work-part {
+        background-color: #F3F3F3;
+    }
+    .text {
+        padding: 0 10px;
+    }
+    #work-part .container .row .col-lg-4 .main .text h2 {
+        font-size: 12px;
+    }
+    #work-part .container .row .col-lg-4 .main .text p {
+        font-size: 11px;
+        line-height: 13px;
+        width: auto;
+    }
+    /*========================*/
+    #choose-part {
+        padding: 45px 0 45px;
+    }
+    #choose-part .container .description p {
+        width: auto;
+        margin-bottom: 55px;
+    }
+    #choose-part .container .row .col-lg-8 .row {
+        row-gap: 30px;
+        flex-direction: column;
+    }
+    #choose-part .container .row .main {
+        text-align: center;
+    }
+    #choose-part .container .row .col-lg-8 .row .col-lg-6 .main .text h2 {
+        font-size: 16px;
+        margin: 12px 0 0px;
+    }
+    #choose-part .container .row .col-lg-8 .row .col-lg-6 .main .text p {
+        font-size: 11px;
+        line-height: 17px;
+        width: auto;
+    }
+    #choose-part .container .row .col-lg-4 img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .title h2 {
+        font-size: 13px;
+    }
+    /*===============================*/
+    #client-part .container .slider-part .slide p {
+        font-size: 11px;
+        line-height: 20px;
+        width: auto;
+        margin: 8px 0;
+        
+        text-align: center;
+    }
+    .slick-slide img {
+        display: block;
+        margin: 0 auto;
+    }
+    #client-part .container .slider-part .slide .star {
+        margin-bottom: 19px;
+    }
+    #client-part .container .slider-part .slide .fa-star {
+        font-size: 13px;
+    }
+    #client-part .container .slider-part .slide .client .text h3 {
+        font-size: 12px;
+        line-height: 78%;
+    }
+    #client-part .container .slider-part .slide .client .text p {
+        font-size: 11px;
+        line-height: 28px;
+    }
+    #client-part .container .slider-part .slide .star {
+        margin: 10px auto;
+        width: 100%;
+        text-align: center;
+    }
+    /*=========================*/
+    #signup {
+        margin: 45px 0 45px;
+        padding: 45px 0;
+    }
+    #signup .container .row .col-lg-6 h2 {
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+    #signup .container .row .col-lg-6 form h2 {
+        font-size: 13px;
+        text-align: center;
+        width: auto;
+    }
+    #signup .container .row .col-lg-6 .para {
+        margin: 10px 0 14px;
+    }
+    #signup .container .row .col-lg-6 p {
+        font-size: 11px;
+        line-height: 18px;
+        width: auto;
+    }
+    #signup .container .row .col-lg-6 form label {
+        font-size: 11px;
+        line-height: 13px;
+        margin: 13px 0 9px;
+    }
+    #signup .container .row .col-lg-6 form input {
+        padding: 0px 0 7px 39px;
+        margin-bottom: 1px;
+    }
+    #signup .container .row .col-lg-6 form button {
+        padding: 8px 59px;
+        font-size: 11px;
+        line-height: 17px;
+        margin-top: 30px;
+    }
+    /*=========================*/
+    footer .container .row .col-lg-4 p {
+        font-size: 11px;
+        line-height: 20px;
+        margin-top: 12px;
+        width: auto;
+    }
+    footer .container .img {
+        text-align: center;
+    }
+    footer {
+        padding: 10px 0 42px;
+    }
+    footer .container .row {
+        text-align: center;
+    }
+    footer .container .row .col-lg-8 .row .col-lg-3 h2 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    footer .container .row .col-lg-8 .row .col-lg-3 ul li a {
+        font-size: 11px;
+        line-height: 21px;
+    }
  }
